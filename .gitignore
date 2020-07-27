@@ -10,3 +10,4 @@ gohan.jpg
 src/app.ts
 assets
 .DS_Store
+.vscode

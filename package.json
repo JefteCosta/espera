@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "npm run build:venom & tsc app.ts && node app.js",
+    "start": "npm run build:espera & tsc app.ts && node app.js",
     "build": "npm run build:wapi && npm run build:middleware && npm run build:jsQR && npm run build:counter && tsc",
-    "build:venom": "tsc",
+    "build:espera": "tsc",
     "build:wapi": "cd src/lib/wapi/ && webpack",
     "build:middleware": "cd src/lib/middleware/ && webpack",
     "build:jsQR": "cd src/lib/jsQR/ && gulp",
@@ -46,7 +46,7 @@
     "automatization",
     "puppeteer"
   ],
-  "author": "Orkestral",
+  "author": "JefteCosta",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JefteCosta/espera/issues"
